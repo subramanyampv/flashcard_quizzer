@@ -1,0 +1,6 @@
+[
+  {"question": "Has both fields", "answer": "good"},
+  {"question": "No answer here"},
+  {"answer": "No question here"},
+  {"question": "   ", "answer": "Blank question"}
+]

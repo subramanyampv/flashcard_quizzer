@@ -1,0 +1,4 @@
+[
+  {"question": "Valid card?", "answer": "yes"},
+  {"question": "Broken card?", "answer": "yes"  <- missing comma and bracket
+]

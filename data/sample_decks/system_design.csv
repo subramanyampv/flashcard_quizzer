@@ -1,0 +1,6 @@
+question,answer,tags,difficulty
+What is a load balancer?,"A service that distributes incoming traffic across multiple servers to improve availability and throughput",networking,easy
+What does CAP theorem state?,"A distributed system can guarantee at most two of: Consistency, Availability, and Partition tolerance",networking,hard
+What is eventual consistency?,"A replica set converges to the same value over time once updates stop, without blocking reads or writes",database,medium
+What is the purpose of a CDN?,"Caches static assets at edge locations near users to cut latency and origin load",networking,easy
+What is sharding?,"Partitioning a dataset across multiple database instances by a shard key so each holds a subset",database,medium

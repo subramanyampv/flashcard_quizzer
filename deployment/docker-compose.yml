@@ -1,0 +1,13 @@
+services:
+  app:
+    build:
+      context: ..
+      dockerfile: deployment/Dockerfile
+    ports:
+      - "8501:8501"
+    env_file:
+      - ../.env                      # OpenAI/Langfuse keys injected, not committed
+    volumes:
+      - ../logs:/app/logs            # observability persists across restarts
+      - ../knowledge:/app/knowledge
+      - ../data:/app/data            # decks, stats, feedback stay host-side

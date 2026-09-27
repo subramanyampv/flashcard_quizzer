@@ -1,0 +1,5 @@
+[
+  {"question": "What is the capital of France?", "answer": "Paris", "tags": ["geography"], "difficulty": "easy"},
+  {"question": "What does HTTP stand for?", "answer": "HyperText Transfer Protocol", "tags": ["networking"]},
+  {"question": "Squares sum to 55?", "answer": "1+4+9+16+25 = 55 (first five squares)", "difficulty": "hard"}
+]

@@ -1,0 +1,15 @@
+# Classic data structures — alternating Q/A lines
+What is the time complexity of binary search?
+O(log n) on a sorted collection
+
+Q: Difference between a stack and a queue?
+A: Stack is LIFO (push/pop), queue is FIFO (enqueue/dequeue).
+
+What is a hash map collision?
+Two distinct keys hash to the same bucket, resolved by chaining or open addressing
+
+Q: When would you use a linked list over an array?
+A: When you need O(1) insert/delete at known positions and don't need random access
+
+What is an AVL tree?
+A self-balancing BST where heights of child subtrees differ by at most one at every node

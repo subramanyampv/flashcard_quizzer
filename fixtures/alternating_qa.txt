@@ -1,0 +1,11 @@
+# Simple alternating format: question line, answer line, blank between pairs
+What is H2O?
+Water
+
+Q: What is the powerhouse of the cell?
+A: Mitochondria
+
+gravity constant 9.8
+value of g on Earth
+
+this question has no answer

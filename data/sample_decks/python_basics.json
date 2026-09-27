@@ -1,0 +1,9 @@
+{
+  "cards": [
+    {"question": "What is the difference between a list and a tuple in Python?", "answer": "Lists are mutable; tuples are immutable and hashable when their elements are.", "tags": ["data-types"], "difficulty": "easy"},
+    {"question": "What does the 'with' statement do?", "answer": "It wraps a block in a context manager, guaranteeing cleanup (like closing files) even if an exception occurs.", "tags": ["idioms"]},
+    {"question": "What are *args and **kwargs?", "answer": "*args collects extra positional arguments into a tuple; **kwargs collects keyword arguments into a dict.", "tags": ["functions"]},
+    {"question": "What is a GIL?", "answer": "The Global Interpreter Lock: one thread at a time executes Python bytecode, limiting CPU-bound threading.", "tags": ["concurrency"], "difficulty": "hard"},
+    {"question": "How do you shallow-copy vs deep-copy a list?", "answer": "list.copy()/copy.copy() for shallow; copy.deepcopy() recursively copies nested objects.", "tags": ["data-types"]}
+  ]
+}

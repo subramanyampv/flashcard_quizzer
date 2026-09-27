@@ -1,0 +1,20 @@
+# secrets — the real .env never gets committed
+.env
+
+# local virtual environment
+.venv/
+
+# python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# runtime artifacts
+logs/*.log
+data/stats/*.json
+data/feedback/feedback_store.json
+knowledge/faiss_index/*
+!knowledge/faiss_index/.gitkeep
+
+# macOS
+.DS_Store

@@ -1,0 +1,14 @@
+[
+  {"id": "TC001", "input": {"question": "What is the capital of France?", "expected": "Paris", "given": "Paris, city of light"},
+   "expected": {"correct": true, "partial": false}, "metrics": ["correctness"]},
+  {"id": "TC002", "input": {"question": "What is photosynthesis?", "expected": "Plants use sunlight to convert CO2 and water into glucose", "given": "sunlight makes food for plants"},
+   "expected": {"correct": false, "partial": true}, "metrics": ["correctness"]},
+  {"id": "TC003", "input": {"question": "What is 2 + 2?", "expected": "four", "given": "I like cats"},
+   "expected": {"correct": false, "partial": false}, "metrics": ["correctness"]},
+  {"id": "TC004", "input": {"question": "What does HTTP stand for?", "expected": "HyperText Transfer Protocol", "given": "HyperText Transfer Protocol"},
+   "expected": {"correct": true, "partial": false}, "metrics": ["correctness"]},
+  {"id": "TC005", "input": {"question": "Difference between list and tuple?", "expected": "Lists are mutable; tuples are immutable and hashable", "given": "lists are mutable, tuples cannot be changed"},
+   "expected": {"correct": true, "partial": false}, "metrics": ["correctness"]},
+  {"id": "TC006", "input": {"question": "What is a load balancer?", "expected": "Distributes incoming traffic across multiple servers", "given": "it distributes traffic across servers"},
+   "expected": {"correct": true, "partial": false}, "metrics": ["correctness"]}
+]
